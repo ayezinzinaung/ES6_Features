@@ -54,9 +54,26 @@ const oneset = () => 'Hello World OneSetence'
 const paramater = name => 'Hello World Paramater' . name
     console.log(paramater('JS'));
 
+// Spread Operator
+// Array နှစ်ခု ပေါင်းတာ Array ကို String ပြောင်းရင် ... ကိုသုံးပေးရတယ်
+var mail = ["Mg Mg", "Aung Aung"];
+var femail = ["Aye Aye", "Mya Mya"];
+var people = [...mail, ...femail];
 
+console.log(people);
 
+// Object နှစ်ခု ပေါင်း တာက
+var users = [
+    {name: "Mg Mg", age: "12"},
+    {name: "Aung Aung", age: "15"},
+];
+var newUser = {name: "Tun Tun", age: "20"};
+// users.push(newUser); (or)
+users= [...users, newUser];
+console.log(users);
 
+var user = {name: "su su", age: "10"};
+var adds = {address: "Yangon"};
+var person = {...user, ...adds};
 
-
-
+console.log(person);
