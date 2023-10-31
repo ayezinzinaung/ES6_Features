@@ -58,7 +58,7 @@ const paramater = name => 'Hello World Paramater' . name
 // Array နှစ်ခု ပေါင်းတာ Array ကို String ပြောင်းရင် ... ကိုသုံးပေးရတယ်
 var mail = ["Mg Mg", "Aung Aung"];
 var femail = ["Aye Aye", "Mya Mya"];
-var people = [...mail, ...femail];
+var people = [...mail, ...femail, "Hla Hal"];
 
 console.log(people);
 
